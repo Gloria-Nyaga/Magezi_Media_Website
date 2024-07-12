@@ -86,7 +86,7 @@ font-size: 20px;
     content:'';
     flex: 1;
     border-bottom: 8px solid #F97D30; /* Line color and thickness */
-    margin: 0 150px; /* Space between line and text */
+    margin: 0 150px; 
   }
   #blogs{
     font-size: 40px;
