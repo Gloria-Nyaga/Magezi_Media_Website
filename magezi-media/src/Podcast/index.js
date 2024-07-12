@@ -17,7 +17,8 @@ const About = ()=>{
                   burnout, navigating career challenges, and exploring the evolving landscape of
                   work.Burnout Prevention: The show will delve into strategies for maintaining 
                   work-life balance, managing stress, and prioritizing self-care to help listeners
-                  avoid burnout and maintain their well-being. Tune in for this and more interesting episodes coming your way </p>
+                  avoid burnout and maintain their well-being. Tune in for this and more interesting episodes coming your way. Super excited 
+                  to share our experiences. </p>
 
                   <h2> Upcoming episodes</h2>
                   <ul>
