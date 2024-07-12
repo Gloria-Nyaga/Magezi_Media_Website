@@ -1,29 +1,21 @@
-
-
-
-// import './App.css';
-// import About from './Podcast.js';
-// const Info=()=>{
-//   return(
-//     <About/>
-//   );
-// }
-
-// export default Info;
-
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './Podcast';
+import Landingpage from "./LandingPage";
+import Navbar from "./Navbar";
+
 
 function App() {
   return (
     <Router>
       <div>
+        <Navbar/>
+       
 
         <Routes>
-          <Route path="/" element={<About/>} />
-          {/* <Route path="/videos" element={<Videos />} /> */}
-          {/* Add more routes as needed */}
+          <Route path="/" element={<Landingpage />}/>
+          <Route path="/podcast" element={<About/>}/>
+          
+
         </Routes>
       </div>
     </Router>

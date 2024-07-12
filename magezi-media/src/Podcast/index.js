@@ -10,7 +10,7 @@ const About = ()=>{
                 <h2>Podcast</h2>
                 <hr/>
                 <h4> Buds on Air</h4>
-                <img src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrxpLiQv5w1YDzK1n2MO_GksK910BKepW9mC5ykxRBSksMyyKi'></img>
+                <img src='https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQrxpLiQv5w1YDzK1n2MO_GksK910BKepW9mC5ykxRBSksMyyKi'alt=''/>
             </div>
             <div>
                 <p> Buds on Air aims to provide valuable insights and practical advice on preventing 
@@ -29,7 +29,7 @@ const About = ()=>{
                  <li>Women in Tech</li>
 
                  </ul>
-                 <img src='https://i.pinimg.com/474x/34/8b/c1/348bc17323a1ad8dc50ad0ce2aed0861.jpg'></img>
+                 <img src='https://i.pinimg.com/474x/34/8b/c1/348bc17323a1ad8dc50ad0ce2aed0861.jpg' alt=''/>
 
             </div>
 
