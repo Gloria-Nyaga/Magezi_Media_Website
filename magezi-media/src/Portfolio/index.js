@@ -67,7 +67,7 @@ function Portfolio(){
 
                 <div className='nakato'>
                 <img src={nakato} alt=''/>
-                 <p> Nakato Musana</p>
+                 <p>Musana</p>
                  
                  <div> <img src={creative} alt='create' className='create'/> <span> Creative</span> </div>
                     <div><img src={intelligent} alt='intelligent' className='intelligent'/> <span> Inteligent</span></div>
