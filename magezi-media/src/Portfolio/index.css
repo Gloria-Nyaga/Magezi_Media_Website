@@ -1,5 +1,5 @@
 .portfolios{
-    margin-top: -1%;
+    margin-top: 2%;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
@@ -67,7 +67,7 @@ button:hover {
     font-weight: bolder;
     font-size: 24px;
 }
-img{
+.photo{
     margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 7%;
@@ -76,7 +76,7 @@ img{
     border-radius: 50%;
     transition: transform 0.3s ease;
 }
-img:hover{ 
+.photo:hover{ 
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0,0,0,0.8);
     transform: scale(1.1) translateY(-5px); 

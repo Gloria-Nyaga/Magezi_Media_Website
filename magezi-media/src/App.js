@@ -1,30 +1,17 @@
 
-// import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React from 'react';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
-import Files from './Files';
-import Nakato from './Files';
-import Valentine from './Files';
+
 
 function App() {
-  return (
-    <Router>
-
-    
+  return ( 
     <div className="App">
-    
-      <Routes>
-      
-        <Route path='/' element={<Portfolio/> }/>
-        <Route path='/file' element={<Files/>}/>
-        <Route path='/nakato' element={<Nakato/>}/>
-        <Route path='/val' element={<Valentine/>}/>
-      </Routes>
-      <Footer/>
      
+     <Portfolio/>
+     <Footer/>
     </div>
-    </Router>
+   
   );
 }
 
