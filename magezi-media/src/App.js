@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './Podcast';
 import Landingpage from "./LandingPage";
 import Navbar from "./Navbar";
+import Videos from "./Videos";
 import Portfolio from './Portfolio';
 import Footer from './Footer';
 import Files from './Files';
@@ -21,7 +22,7 @@ function App() {
           <Route path="/" element={<Landingpage />}/>
           <Route path="/podcast" element={<About/>}/>
            <Route path="/videos" element={<Videos />} />
-           <Route path='/' element={<Portfolio/> }/>
+           <Route path='/portfolio' element={<Portfolio/> }/>
         <Route path='/file' element={<Files/>}/>
         <Route path='/nakato' element={<Nakato/>}/>
         <Route path='/val' element={<Valentine/>}/>
