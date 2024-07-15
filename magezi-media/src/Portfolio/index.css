@@ -40,6 +40,7 @@ button{
     background-color: #F97D30;
     padding: 10px;
     width: 40%;
+    height: 12%;
     margin-top: 10%;
     margin-left: 30%;
     margin-bottom: 14%;
@@ -65,7 +66,7 @@ button:hover {
     margin-top: 10%;
     text-align: center;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 20px;
 }
 .photo{
     margin-top: 5%;
@@ -84,7 +85,10 @@ button:hover {
 a{
     color: #01655E;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
+    padding: 4px;
+    
+    text-align: center;
     font-weight: bold;
 }
 span{
@@ -164,8 +168,8 @@ span{
     } 
     .line1{
         margin-bottom: -38px;
-        margin-left: 10px;
-        width: 50%;
+        margin-left: 0px;
+        width: 0%;
         margin-right: 8%;
     }
     .line2{
@@ -175,8 +179,8 @@ span{
     }
     .portfolios{
         margin-top: 5%;
-        margin-left: 20%;
-        font-size: 26px;
+        margin-left: 15%;
+        font-size: 30px;
         font-weight: bold;
         text-align: center;
     }
@@ -212,7 +216,7 @@ span{
         border: none;
     }
     .brendah {
-        background-color: #c0dddb;
+        background-color: #267772;
         border-radius: 30px;
         width: 60%;
         height: 85%;
@@ -220,6 +224,7 @@ span{
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
+        margin-left: 12%;
     
     }
     .maureen {
@@ -231,6 +236,7 @@ span{
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
+        margin-left: 12%;
     
     }
     .valentine {
@@ -242,6 +248,7 @@ span{
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
+        margin-left: 12%;
     
     }
     .gloria {
@@ -253,6 +260,7 @@ span{
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
+        margin-left: 12%;
     
     }
     .nakato {
@@ -264,6 +272,7 @@ span{
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
+        margin-left: 12%;
     
     }
     
@@ -274,13 +283,15 @@ span{
     .cards{
         display: grid;
         grid-template-columns: repeat(2,2fr);
+        gap: 1%;
+        margin-left: 18px;
         
        
     } 
     .line1{
         margin-bottom: -38px;
-        margin-left: 10px;
-        width: 50%;
+        margin-left: 0px;
+        width: 0%;
         margin-right: 8%;
     }
     .line2{
@@ -288,20 +299,27 @@ span{
         margin-left: 10%;
         width: 0%;
     }
+    p{
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+    }
     .portfolios{
         margin-top: 5%;
-        margin-left: 20%;
-        font-size: 26px;
+        margin-left: -10%;
+        font-size: 36px;
         font-weight: bold;
         text-align: center;
     }
     .aboutus{
         margin-top: -1%;
         margin-bottom: 4%;
-        font-size: 20px;
-        font-family: Libre Basketville;
+        margin-right: 10%;
+        font-size: 25px;
         text-align: center; 
     }
+    
     .container{
         margin-left: 9%;
 
@@ -319,8 +337,9 @@ span{
     .brendah {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -330,8 +349,9 @@ span{
     .maureen {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -341,8 +361,9 @@ span{
     .valentine {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -352,8 +373,9 @@ span{
     .gloria {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -363,8 +385,9 @@ span{
     .nakato {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -394,15 +417,27 @@ span{
    
     .portfolios{
         margin-top: 5%;
-        margin-left: 20%;
-        font-size: 26px;
+        margin-left: -10%;
+        font-size: 40px;
         font-weight: bold;
         text-align: center;
+    }
+    button{
+        background-color: #F97D30;
+        padding: 10px;
+        width: 60%;
+        font-size: medium;
+        margin-top: 10%;
+        margin-left: 24%;
+        margin-bottom: 14%;
+        border-radius: 15px;
+        border: none;
     }
     .aboutus{
         margin-top: -1%;
         margin-bottom: 4%;
         font-size: 20px;
+        margin-left: -13%;
         font-family: Libre Basketville;
         text-align: center; 
     }
@@ -482,32 +517,44 @@ span{
 @media screen and (min-width: 1101px)and (max-width:1300px){
     .line1{
         margin-bottom: -8px;
-        margin-left: 10px;
+        margin-left: 1px;
         width: 30%;
-        margin-right: 20%;
+        margin-right: 4%;
     }
     .line2{
         margin-bottom: -10px;
-        margin-left: 3%;
+        margin-left: 5%;
         width: 30%;
     }
     .portfolios{
         margin-top: 5%;
-        margin-left: 5%;
-        margin-right: 16%;
         font-size: 26px;
         font-weight: bold;
         text-align: center;
+
+    }
+    p{
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 6px;
     }
     .aboutus{
         margin-top: -1%;
         margin-bottom: 4%;
         font-size: 20px;
+        
         font-family: Libre Basketville;
         text-align: center; 
     }
+    p{
+        margin-top: 10%;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 10px;
+    }
     .container{
-        margin-left: 9%;
+        margin-left: 5%;
 
      }
      img{
@@ -520,11 +567,22 @@ span{
         border-radius: 50%;
         transition: transform 0.3s ease;
     }
+    button{
+        background-color: #F97D30;
+        padding: 10px;
+        width: 85%;
+        margin-top: 10%;
+        margin-left: 18%;
+        margin-bottom: 14%;
+        border-radius: 15px;
+        border: none;
+    }
     .brendah {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -534,9 +592,10 @@ span{
     .maureen {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
-        color: aliceblue;
+        font-size: small;
+        color: rgb(229, 233, 236);
         margin-top: 0%; 
         padding: 3%; 
         margin-top: 15%;
@@ -545,8 +604,9 @@ span{
     .valentine {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -556,8 +616,9 @@ span{
     .gloria {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 
@@ -567,8 +628,9 @@ span{
     .nakato {
         background-color: #1C7E77;
         border-radius: 30px;
-        width: 60%;
+        width: 70%;
         height: 85%;
+        font-size: small;
         color: aliceblue;
         margin-top: 0%; 
         padding: 3%; 

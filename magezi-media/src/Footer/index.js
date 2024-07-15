@@ -42,7 +42,7 @@ function Footer(){
                    <span><img src={facebook} alt=' facebook'/> </span>
                    <span> <img src={instagram} alt=' instagram'/></span>
                    <span> <img src={youtube} alt=' you tube'/></span>
-                   <span><img src={boom} alt=' boomplay'/> </span>
+                   {/* <span><img src={boom} alt=' boomplay'/> </span> */}
     
                 </div>
                 <div/>
