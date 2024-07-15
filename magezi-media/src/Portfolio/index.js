@@ -75,7 +75,7 @@ function Portfolio(){
                      <div> <img src={work}alt='hardwork' className='work'/><span> Hardworking</span></div>
                  
                 
-                 <button> <a href='http://127.0.0.1:5500/index.html'> Portfolio </a></button>   
+                 <button> <a href='https://brendaonportfolio.vercel.app/'> Portfolio </a></button>   
                 </div>
             </div>
         </div>
